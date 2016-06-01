@@ -18,7 +18,7 @@
           # modules to be able to link to this ogg.node file. on linux/solaris
           # this happens because of the "shared_library" type...
           'libraries': [
-            '-Wl,-force_load,<(module_root_dir)/build/$(BUILDTYPE)/ogg.a'
+            '-Wl,-force_load,"<(module_root_dir)/build/$(BUILDTYPE)/ogg.a"'
           ],
           'xcode_settings': {
             'OTHER_LDFLAGS': [
