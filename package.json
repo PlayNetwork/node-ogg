@@ -8,7 +8,7 @@
     "decode",
     "stream"
   ],
-  "version": "1.2.4",
+  "version": "1.2.5",
   "license": "MIT",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
@@ -17,10 +17,10 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "bindings": "~1.2.0",
-    "debug": "2",
-    "nan": "~2.1.0",
-    "readable-stream": "1.0"
+    "bindings": "^1.2.1",
+    "debug": "^2.2.0",
+    "nan": "^2.3.5",
+    "readable-stream": "^2.1.4"
   },
   "devDependencies": {
     "mocha": "*",
